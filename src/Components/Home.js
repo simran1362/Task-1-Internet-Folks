@@ -9,12 +9,12 @@ const Home = () => {
     <div className="panel1">
       <div className="Navbar">
         <img className="logo" src={img} alt="logo" />
-        <button className="buttonNav">Get in Touch</button>
+        <button id="button" className="buttonNav">Get in Touch</button>
       </div>
-      <div className="maintext">
+      <div id="main-text" className="maintext">
         Discover the <span>Best</span> Food and Drinks
       </div>
-      <p className="bottomtext">
+      <p id="bottontext" className="bottomtext">
         Naturally made Healthcare Products for the better care & support of your
         body.
       </p>

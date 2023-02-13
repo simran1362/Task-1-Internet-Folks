@@ -54,9 +54,9 @@ const Article = () => {
       </div>
 
       <div className="LRbutton">
-        <button className="Lbutton">L</button>
+        <button className="Lbutton fa fa-angle-left"></button>
         <p className="page-no">1/2</p>
-        <button className="Rbutton">R</button>
+        <button className="Rbutton fa fa-angle-right"></button>
       </div>
     </div>
   );

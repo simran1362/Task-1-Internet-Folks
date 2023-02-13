@@ -1,14 +1,136 @@
+@media (max-width: 400px) {
+  .logo{
+    display: none;
+  }
+
+  .panel1 {
+    display: block;
+    margin-bottom: 64px;
+  }
+  
+  #button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 15px 0 0;
+    width: 87.89px;
+    height: 37px;
+    background-color: transparent;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: center; 
+  }
+
+  .readbtn {
+    margin-top: 16px;
+    margin-bottom: 141px;
+  }
+
+  .buttonNav {
+    margin: 18px 18px 0 0;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 41px;
+  }
+
+  .home-pizza {
+    position: relative;
+    width: 375px;
+    margin-top: 0;
+  }
+
+  #main-text {
+    margin-top: 489px;
+    width: 280px;
+    margin-right: 0;
+    margin-left: 58px;
+    height: 130px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #bottontext {
+    margin-top: 25px;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 0;
+    font-size: 11px;
+    line-height: 18px;
+    width: 249px;
+    height: 36px;
+    text-align: center;
+    color: #444957;
+  }
+
+  .explorebtn {
+    margin-top: 0;
+  }
+
+  .aboutImg {
+    display: none;
+
+  }
+
+  #about {
+    width: 375px;
+    height: 516px;
+  }
+
+  #about-text {
+    margin-top: 140px;
+    margin-left: 0;
+    width: 120px;
+    height: 35px;
+  }
+ 
+  #head-text {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+  }
+
+  #content-text {
+    width: 275px;
+    height: 138px;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .about-textpanel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px; 
+    text-align: center;
+  }
+}
+
 .App{
   overflow: hidden;
+  margin-top: 0;
 }
 
 :root {
   background: white;
+  margin-top: 0;
 }
 
 .panel1 {
   height: 804px;
   width: 100%;  
+  margin-top: 0;
 }
 
 .Navbar {
@@ -26,8 +148,7 @@
 .buttonNav {
   height: 42px;
   width: 122px;
-  margin-top: 32px;
-  margin-right: 41px;
+  margin: 32px 41px 0 0;
   border: 1px solid;
   border-color: white;
   border-radius: 41px;
@@ -149,8 +270,6 @@ span {
 }
 
 .readbtn {
-  justify-content: center;
-  align-items: center;
   padding: 3px 26px;
   gap: 10px;
   width: 132px;
@@ -381,4 +500,12 @@ span {
   margin-right: 104px;
   /* margin-bottom: 11px; */
   margin-left: 234px;
+}
+
+.fa.fa-instagram, .fa.fa-facebook, .fa.fa-twitter{
+  color: #0E2368;
+}
+
+.fa.fa-angle-right {
+  color: #0E2368;
 }

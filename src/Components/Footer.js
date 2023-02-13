@@ -26,9 +26,9 @@ const Footer = () => {
       <div>
         <div className="social">Social Links</div>
         <div className="links">
-            <a href="#home">I</a>
-            <a href="#product">T</a>
-            <a href="#career">F</a>
+            <a href="#home" className="fa fa-instagram"></a>
+            <a href="#product" className="fa fa-twitter"></a>
+            <a href="#career" className="fa fa-facebook"></a>
         </div>
         <div className="copyright">© 2022 Food Truck Example</div>
       </div>
